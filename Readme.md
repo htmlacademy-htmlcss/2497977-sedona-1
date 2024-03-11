@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алена Самойлова](https://up.htmlacademy.ru/htmlcss-individual/1/user/2497977).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Миронов](https://up.htmlacademy.ru/htmlcss-individual/1/user/1336881).
 
 ---
 
