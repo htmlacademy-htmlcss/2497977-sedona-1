@@ -2,54 +2,56 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Седона</title>
-    <link rel="stylesheet" href="./styles/stule.css"/>
+    <link rel="stylesheet" href="./styles/style.css"/>
   </head>
   <body>
+
     <header class="page-header">
-     <div class="header_wrapper_container">
+     <div class="page-header_wrapper_container">
       <img src="#" alt="Логотип компании"/>
        <nav class="navigation">
-       <ul class="navigation-links">
-        <li class="navigation-item"><a>Главная</a></li>
-        <li class="navigation-item"><a href="#">О Седоне</a></li>
-        <li class="navigation-item"><a href="catalog.html">Гостиницы</a></li>
+        <ul class="navigation-links">
+          <li class="navigation-item"><a>Главная</a>
+         </li>
+          <li class="navigation-item"><a href="#">О Седоне</a>
+         </li>
+          <li class="navigation-item"><a href="catalog.html">Гостиницы</a>
+         </li>
        </ul>
        </nav>
-       <ul class="header-btns">
+     </div>
+       <ul class="page-header-btns">
          <li class="btns-item">
             <a href="#">
-              <igm src="#" alt="Поиск"/>
+              <img src="#" alt="Поиск"/>
             </a>
-        </li>
-        <li>
-         <a href="#">
-          <img src="#" alt="Закладки"/>
-        </a>
-          <span class="amount-tabs">12</span>
-      </li>
-         </ul>
+         </li>
+          <li>
+            <a href="#">
+             <img src="#" alt="Избранное"/>
+            </a>
+             <span class="amount-tabs">12</span>
+         </li>
+        </ul>
       <button type="button">Хочу сюда!</button>
-     </div>
     </header>
-    <main class="main-inner">
-     <h1 class="visually-hidder">Седона - город для отдыха</h1>
+
+    <main class="main-index">
+      <h1 class="visually-hidder">Седона - городок для отдыха</h1>
       <section class="intro" style="background-image: url();">
-        <div class="intro-wrapper_container">
-          <img class="banner" src="#" art="Главный банер города"/>
-        </div>
-       <section class="hero">
-         <h1 class="visually-hidder">Городок Седона</h1>
-          <div class="bigger-text">
-            <p>
-              <b>Седона - небольшой городок в Аризоне, заслуживающий большего</b>
-            </p>
-            <p>
+       <img class="welkome-img" src="#" alt="Главный банер города Седона">
+        <div class="advantages-wrapper container">
+          <h2 class="advantages-title" id="about">
+             Седона - небольшой городок в Аризоне, заслуживающий большего
+          </h2>
+            <p class="advantages-subtitle">
               Рассмотрим причины по которым Седона круче, чем Гранд-Каньон!
             </p>
-          </div>
+        </div>
       </section>
-      <section class="advantages">
+      <section class="advantages-list">
         <h2 class="visually-hidder">Преимущества</h2>
         <ul class="advantages-list">
           <li class="advantages-item advantages-photo">
@@ -131,27 +133,30 @@
    </main>
 
    <footer class="footer">
-    <div class="footer_wrapper container">
-      <ul>
-        <li>
-          <a href="#">
-            <img src="path" alt="icon">
+    <div class="footer_wrapper container background-image">
+      <ul class="footer-social-list">
+        <li class="footer-cocial-item">
+          <a class="button" href="#" aria-label="ВКонтакте">
+            <img src="#" alt="VK">
           </a>
         </li>
         <li>
-          <a href="#">
-            <img src="path" alt="icon">
+          <a class="button" href="#" aria-label="Телеграм">
+            <img src="#" alt="Tg">
           </a>
         </li>
         <li>
-          <a href="#">
-            <img src="path" alt="icon">
+          <a class="button" href="#" aria-label="Ютуб">
+            <img src="#" alt="Yt">
           </a>
         </li>
       </ul>
-      <a href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a href="https://htmlacademy.ru/">
-         <img src="path" alt="#">
+      <address class="footer-contacts-address">
+        <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12
+        </a>
+      </address>
+      <a class="htmlacademy" href="https://htmlacademy.ru/">
+         <img class="logo-html" src="#" alt="Логотип сайта">
       </a>
     </div>
   </footer>
