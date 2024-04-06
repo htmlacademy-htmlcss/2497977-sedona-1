@@ -1,0 +1,81 @@
+@font-face{
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ptsans-400.woff2") format (woff2);
+  font-display: swap;
+}
+@font-face{
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ptsans-700.woff2") format (woff2);
+  font-display: swap;
+}
+
+body{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+.small-town {
+  background-color: #f0f5f9;
+}
+
+.scenic-road {
+  background-color: #e6f0F6;
+}
+
+.few-tourists {
+  background-color: #f0f5f9;
+}
+
+.devils-bridge {
+  background-color: #82b3d3;
+}
+
+.advantages-item:first-child {
+  color: white;
+}
+.advantages-item:last-child {
+  color: white;
+}
+
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.advantages-description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.services-title {
+
+}
